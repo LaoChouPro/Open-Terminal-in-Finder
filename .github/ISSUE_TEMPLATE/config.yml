@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安全漏洞
+    url: https://github.com/LaoChouPro/Open-Terminal-in-Finder/security/advisories/new
+    about: 请通过私密渠道报告安全漏洞，不要创建公开 Issue。

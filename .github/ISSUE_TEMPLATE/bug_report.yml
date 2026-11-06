@@ -1,0 +1,53 @@
+name: Bug 报告
+description: 报告 FinderTerminal 的错误或异常行为
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢报告问题。安全漏洞请使用[私密安全报告](https://github.com/LaoChouPro/Open-Terminal-in-Finder/security/advisories/new)，不要在此披露。
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么？你原本期望什么行为？
+      placeholder: 右键某个文件后……
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本
+      placeholder: 例如 macOS 15.6
+    validations:
+      required: true
+  - type: dropdown
+    id: arch
+    attributes:
+      label: CPU 架构
+      options:
+        - Apple Silicon (arm64)
+        - Intel (x86_64)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: FinderTerminal 版本或提交
+      placeholder: 例如 1.0.0 或提交 SHA
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息
+      description: 可提供截图或相关日志。请先移除用户名、私人目录和其他敏感信息。

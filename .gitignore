@@ -1,0 +1,34 @@
+# macOS build products
+build/
+.build/
+DerivedData/
+*.app/
+*.appex/
+*.dSYM/
+
+# Xcode and SwiftPM
+xcuserdata/
+*.xcuserstate
+*.xcmappingmodel/
+.swiftpm/
+Package.resolved
+
+# Icon generation
+*.iconset/
+
+# Python (optional icon generator)
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors and operating systems
+.DS_Store
+.AppleDouble
+.LSOverride
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local agent settings
+.claude/settings.local.json
